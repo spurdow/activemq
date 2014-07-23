@@ -1,0 +1,1339 @@
+2014-07-23 15:26:42,171 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@53c3dcdc: startup date [Wed Jul 23 15:26:42 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 15:26:44,150 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 15:26:44,208 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:26:44,904 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:26:44,935 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:26:44,943 | INFO  | Recovery replayed 17 operations from the journal in 0.028 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:26:45,179 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52253-1406100405001-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:26:45,220 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:26:45,227 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:26:45,239 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:26:45,246 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:26:45,259 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:26:45,266 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:26:45,283 | INFO  | Listening for connections at: mqtt://Acer:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:26:45,290 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:26:45,504 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 15:26:45,506 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:26:45,511 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52253-1406100405001-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:26:45,515 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:26:46,381 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 15:26:46,481 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 15:26:47,063 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 15:29:00,995 | WARN  | Transport Connection to: tcp://127.0.0.1:52283 failed: java.io.IOException: Frame size of 257 MB larger than max allowed 100 MB | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52283@61616
+2014-07-23 15:29:07,330 | WARN  | Transport Connection to: tcp://127.0.0.1:52284 failed: java.io.IOException: Frame size of 1140 MB larger than max allowed 100 MB | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52284@61616
+2014-07-23 15:29:25,377 | WARN  | Transport Connection to: tcp://127.0.0.1:52285 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52285@61616
+2014-07-23 15:33:18,690 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52253-1406100405001-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,695 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,699 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,705 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,710 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,784 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,789 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,792 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,793 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,795 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 15:33:18,999 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52253-1406100405001-0:1) uptime 6 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 15:33:19,003 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52253-1406100405001-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 15:33:19,006 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@53c3dcdc: startup date [Wed Jul 23 15:26:42 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-07-23 15:33:19,032 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-07-23 15:33:21,742 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@39f91f44: startup date [Wed Jul 23 15:33:21 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 15:33:23,855 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 15:33:23,929 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:33:24,617 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:33:24,651 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:33:24,667 | INFO  | Recovery replayed 79 operations from the journal in 0.036 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:33:24,890 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52313-1406100804719-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:33:24,927 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:33:24,935 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:33:24,947 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:33:24,954 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:33:24,966 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:33:24,973 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:33:24,990 | INFO  | Listening for connections at: mqtt://Acer:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:33:24,997 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:33:25,236 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 15:33:25,239 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:33:25,244 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52313-1406100804719-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:33:25,247 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:33:25,956 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 15:33:26,070 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 15:33:26,644 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 15:35:19,452 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1139309429-49
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.DefaultServlet.doGet(DefaultServlet.java:566)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:693)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 15:35:56,621 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1139309429-46
+2014-07-23 15:49:03,100 | WARN  | Transport Connection to: tcp://192.168.56.1:52925 failed: java.io.IOException: Frame size of 257 MB larger than max allowed 100 MB | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///192.168.56.1:52925@61616
+2014-07-23 15:59:22,752 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52313-1406100804719-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2014-07-23 15:59:22,758 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 15:59:22,762 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 15:59:22,766 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 15:59:22,797 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 15:59:22,876 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 15:59:22,901 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 15:59:22,934 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2014-07-23 15:59:22,937 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2014-07-23 15:59:22,939 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2014-07-23 15:59:22,941 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2014-07-23 15:59:23,316 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52313-1406100804719-0:1) uptime 25 minutes | org.apache.activemq.broker.BrokerService | Thread-23
+2014-07-23 15:59:23,323 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-52313-1406100804719-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2014-07-23 15:59:23,327 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@39f91f44: startup date [Wed Jul 23 15:33:21 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2014-07-23 15:59:23,403 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-23
+2014-07-23 15:59:27,382 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@265970bf: startup date [Wed Jul 23 15:59:27 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 15:59:29,431 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 15:59:29,506 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:59:30,203 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:59:30,247 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:59:30,294 | INFO  | Recovery replayed 309 operations from the journal in 0.065 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 15:59:30,539 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53078-1406102370363-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:59:30,583 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:59:30,592 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:59:30,604 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:59:30,612 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:59:30,626 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:59:30,634 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:59:30,652 | INFO  | Listening for connections at: mqtt://127.0.0.1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 15:59:30,659 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:59:30,926 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 15:59:30,928 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 15:59:30,937 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53078-1406102370363-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:59:30,941 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 15:59:31,665 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 15:59:31,796 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 15:59:32,356 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 15:59:55,056 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53078-1406102370363-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,062 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,066 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,071 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,075 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,149 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,162 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,164 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,167 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,169 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,570 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53078-1406102370363-0:1) uptime 26.113 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,574 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53078-1406102370363-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,580 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@265970bf: startup date [Wed Jul 23 15:59:27 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-07-23 15:59:55,621 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-07-23 15:59:57,958 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1cdc8d59: startup date [Wed Jul 23 15:59:57 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 16:00:00,021 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 16:00:00,086 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:00:00,871 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 16:00:00,928 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 16:00:00,935 | INFO  | Recovery replayed 5 operations from the journal in 0.026 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 16:00:01,148 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53086-1406102400992-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:00:01,189 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:00:01,197 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:00:01,210 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:00:01,217 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:00:01,231 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:00:01,238 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:00:01,256 | INFO  | Listening for connections at: mqtt://127.0.0.1:3333?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:00:01,263 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:00:01,548 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 16:00:01,550 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:00:01,558 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53086-1406102400992-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:00:01,564 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:00:02,324 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 16:00:02,449 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 16:00:03,078 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 16:03:53,330 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp109889466-55
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 16:03:57,460 | WARN  | Unknown PUBREL: 26998 received | org.apache.activemq.transport.mqtt.MQTTProtocolConverter | ActiveMQ Transport: tcp:///127.0.0.1:53161@3333
+2014-07-23 16:03:57,462 | WARN  | Transport Connection to: tcp://127.0.0.1:53161 failed: java.io.IOException: Unexpected error occured: java.lang.ArrayIndexOutOfBoundsException: 3 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53161@3333
+2014-07-23 16:04:04,042 | WARN  | Unknown PUBREL: 29743 received | org.apache.activemq.transport.mqtt.MQTTProtocolConverter | ActiveMQ Transport: tcp:///127.0.0.1:53162@3333
+2014-07-23 16:04:04,047 | WARN  | Exception occurred processing: 
+MQTTFrame { type: CONNACK, qos: AT_MOST_ONCE, dup:false }: org.apache.activemq.transport.mqtt.MQTTProtocolException: Unknown MQTTFrame type: 2 | org.apache.activemq.transport.mqtt.MQTTProtocolConverter | ActiveMQ Transport: tcp:///127.0.0.1:53162@3333
+2014-07-23 16:04:23,209 | WARN  | Transport Connection to: tcp://127.0.0.1:53163 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53163@3333
+2014-07-23 16:05:32,512 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53086-1406102400992-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2014-07-23 16:05:32,519 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2014-07-23 16:05:32,526 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2014-07-23 16:05:32,531 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2014-07-23 16:05:32,561 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2014-07-23 16:05:32,646 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2014-07-23 16:05:32,702 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2014-07-23 16:05:32,704 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2014-07-23 16:05:32,706 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2014-07-23 16:05:32,709 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2014-07-23 16:05:32,969 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53086-1406102400992-0:1) uptime 5 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2014-07-23 16:05:32,971 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53086-1406102400992-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2014-07-23 16:05:32,973 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1cdc8d59: startup date [Wed Jul 23 15:59:57 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-24
+2014-07-23 16:05:33,025 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-24
+2014-07-23 16:05:36,298 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@39f91f44: startup date [Wed Jul 23 16:05:36 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 16:05:38,255 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 16:05:38,327 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:05:39,083 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 16:05:39,131 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 16:05:39,158 | INFO  | Recovery replayed 66 operations from the journal in 0.048 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 16:05:39,363 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53180-1406102739211-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:05:39,400 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:05:39,408 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:05:39,420 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:05:39,428 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:05:39,441 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:05:39,449 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:05:39,467 | INFO  | Listening for connections at: mqtt://127.0.0.1:3333?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 16:05:39,474 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:05:39,867 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 16:05:39,869 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 16:05:39,879 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-53180-1406102739211-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:05:39,885 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 16:05:40,559 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 16:05:40,675 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 16:05:41,270 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 16:06:06,781 | WARN  | Transport Connection to: tcp://127.0.0.1:53179 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53179@3333
+2014-07-23 16:07:04,072 | WARN  | Transport Connection to: tcp://127.0.0.1:53187 failed: java.io.EOFException | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53187@3333
+2014-07-23 16:17:59,106 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1708537831-60
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 16:17:59,188 | WARN  | /admin/topics.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp1708537831-60
+java.lang.NullPointerException
+	at org.apache.taglibs.standard.tlv.JstlBaseTLV.validate(JstlBaseTLV.java:196)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.taglibs.standard.tlv.JstlCoreTLV.validate(JstlCoreTLV.java:134)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.compiler.TagLibraryInfoImpl.validate(TagLibraryInfoImpl.java:913)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.compiler.Validator.validateXmlView(Validator.java:1891)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.compiler.Validator.validate(Validator.java:1859)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:210)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:435)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 16:18:03,094 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1708537831-59
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 16:18:03,202 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1708537831-63
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 16:25:15,754 | WARN  | Transport Connection to: tcp://127.0.0.1:53424 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53424@3333
+2014-07-23 16:25:18,177 | WARN  | Transport Connection to: tcp://127.0.0.1:53287 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53287@3333
+2014-07-23 16:25:21,074 | WARN  | Transport Connection to: tcp://127.0.0.1:53188 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53188@3333
+2014-07-23 16:26:05,618 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1708537831-63
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 16:49:38,493 | WARN  | Transport Connection to: tcp://127.0.0.1:54137 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54137@3333
+2014-07-23 16:49:57,565 | WARN  | Transport Connection to: tcp://127.0.0.1:54138 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54138@3333
+2014-07-23 16:51:26,361 | WARN  | Transport Connection to: tcp://127.0.0.1:54148 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54148@3333
+2014-07-23 17:00:43,382 | WARN  | Transport Connection to: tcp://127.0.0.1:54345 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54345@3333
+2014-07-23 17:20:55,484 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1708537831-64
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:22:39,940 | WARN  | Transport Connection to: tcp://127.0.0.1:53178 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53178@3333
+2014-07-23 17:23:09,484 | WARN  | Transport Connection to: tcp://127.0.0.1:54643 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54643@3333
+2014-07-23 17:23:11,941 | WARN  | Transport Connection to: tcp://127.0.0.1:54631 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54631@3333
+2014-07-23 17:23:13,638 | WARN  | Transport Connection to: tcp://127.0.0.1:54640 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54640@3333
+2014-07-23 17:23:25,348 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1273c718: startup date [Wed Jul 23 17:23:25 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 17:23:27,508 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 17:23:27,589 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:23:28,434 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:23:28,519 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:23:28,688 | INFO  | Recovery replayed 922 operations from the journal in 0.198 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:23:28,948 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54665-1406107408730-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:23:29,035 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:23:29,044 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:23:29,060 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:23:29,077 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:23:29,110 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:23:29,128 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:23:29,169 | INFO  | Listening for connections at: mqtt://127.0.0.1:3333?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:23:29,185 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:23:29,550 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 17:23:29,553 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:23:29,567 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54665-1406107408730-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:23:29,576 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:23:30,328 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 17:23:30,433 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 17:23:31,073 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 17:23:45,801 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp674501563-50
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:23:52,867 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp674501563-49
+javax.servlet.ServletException: java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:400)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:23:52,946 | WARN  | /admin/connections.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp674501563-49
+java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.7.0_60]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.getConstructor0(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.newInstance(Unknown Source)[:1.7.0_60]
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:372)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:23:57,933 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp674501563-46
+javax.servlet.ServletException: java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:400)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:23:57,986 | WARN  | /admin/connections.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp674501563-46
+java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.7.0_60]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.getConstructor0(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.newInstance(Unknown Source)[:1.7.0_60]
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:372)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:24,445 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54665-1406107408730-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2014-07-23 17:24:24,453 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 17:24:24,459 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 17:24:24,467 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 17:24:24,473 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 17:24:24,567 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2014-07-23 17:24:24,598 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2014-07-23 17:24:24,602 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2014-07-23 17:24:24,605 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2014-07-23 17:24:24,608 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2014-07-23 17:24:24,881 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54665-1406107408730-0:1) uptime 57.354 seconds | org.apache.activemq.broker.BrokerService | Thread-23
+2014-07-23 17:24:24,885 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54665-1406107408730-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2014-07-23 17:24:24,889 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1273c718: startup date [Wed Jul 23 17:23:25 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2014-07-23 17:24:24,931 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-23
+2014-07-23 17:24:28,311 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@53c3dcdc: startup date [Wed Jul 23 17:24:28 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 17:24:30,853 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 17:24:30,921 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:24:31,685 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:24:31,742 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:24:31,766 | INFO  | Recovery replayed 12 operations from the journal in 0.043 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:24:32,031 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54689-1406107471810-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:24:32,117 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:24:32,133 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:24:32,163 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:24:32,182 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:24:32,216 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:24:32,246 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:24:32,269 | INFO  | Listening for connections at: mqtt://127.0.0.1:3333?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:24:32,278 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:24:32,553 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 17:24:32,555 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:24:32,562 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54689-1406107471810-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:24:32,566 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:24:33,387 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 17:24:33,531 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 17:24:34,171 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 17:24:38,168 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-47
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:46,010 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-48
+javax.servlet.ServletException: java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:400)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:46,107 | WARN  | /admin/connections.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-48
+java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.7.0_60]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.getConstructor0(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.newInstance(Unknown Source)[:1.7.0_60]
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:372)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:48,690 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-48
+javax.servlet.ServletException: java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:400)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:48,732 | WARN  | /admin/connections.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-48
+java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.7.0_60]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.getConstructor0(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.newInstance(Unknown Source)[:1.7.0_60]
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:372)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:49,486 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-46
+javax.servlet.ServletException: java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:400)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:49,556 | WARN  | /admin/connections.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-46
+java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.7.0_60]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.getConstructor0(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.newInstance(Unknown Source)[:1.7.0_60]
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:372)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:50,104 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-45
+javax.servlet.ServletException: java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:400)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:50,165 | WARN  | /admin/connections.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-45
+java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.7.0_60]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.getConstructor0(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.newInstance(Unknown Source)[:1.7.0_60]
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:372)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:54,521 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-46
+javax.servlet.ServletException: java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:400)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:54,632 | WARN  | /admin/connections.jsp | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-46
+java.lang.NoClassDefFoundError: org/apache/jsp/connections_jsp$connections_jspHelper
+	at java.lang.Class.getDeclaredConstructors0(Native Method)[:1.7.0_60]
+	at java.lang.Class.privateGetDeclaredConstructors(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.getConstructor0(Unknown Source)[:1.7.0_60]
+	at java.lang.Class.newInstance(Unknown Source)[:1.7.0_60]
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:372)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:24:57,446 | WARN  |  | org.eclipse.jetty.servlet.ServletHandler | qtp1633318084-49
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:617)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380)[jsp-2.1-glassfish-2.1.v20100127.jar:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)[geronimo-servlet_2.5_spec-1.2.jar:1.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1320)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.SessionFilter.doFilter(SessionFilter.java:45)[activemq-web-5.10-SNAPSHOT.jar:5.10-SNAPSHOT]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/activemq/apache-activemq-5.10-SNAPSHOT/webapps/admin/WEB-INF/classes/:]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1291)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:521)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.Server.handle(Server.java:367)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-server-7.6.9.v20130131.jar:7.6.9.v20130131]
+	at java.lang.Thread.run(Unknown Source)[:1.7.0_60]
+2014-07-23 17:25:25,606 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54689-1406107471810-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,614 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,618 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,623 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,627 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,701 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,716 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,719 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,721 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 17:25:25,725 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-07-23 17:25:26,208 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54689-1406107471810-0:1) uptime 55.339 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 17:25:26,212 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54689-1406107471810-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-07-23 17:25:26,215 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@53c3dcdc: startup date [Wed Jul 23 17:24:28 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-07-23 17:25:26,253 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-07-23 17:25:34,467 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5fd91a7a: startup date [Wed Jul 23 17:25:34 CST 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2014-07-23 17:25:36,484 | INFO  | PListStore:[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2014-07-23 17:25:36,554 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\activemq\apache-activemq-5.10-SNAPSHOT\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:25:37,284 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:25:37,341 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:25:37,366 | INFO  | Recovery replayed 11 operations from the journal in 0.045 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2014-07-23 17:25:37,620 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54703-1406107537411-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:25:37,670 | INFO  | Listening for connections at: tcp://Acer:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:25:37,678 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:25:37,691 | INFO  | Listening for connections at: amqp://Acer:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:25:37,698 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:25:37,731 | INFO  | Listening for connections at: stomp://Acer:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:25:37,747 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:25:37,777 | INFO  | Listening for connections at: mqtt://127.0.0.1:3333?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2014-07-23 17:25:37,787 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:25:38,082 | INFO  | Listening for connections at ws://Acer:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2014-07-23 17:25:38,085 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2014-07-23 17:25:38,094 | INFO  | Apache ActiveMQ 5.10-SNAPSHOT (localhost, ID:Acer-54703-1406107537411-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:25:38,100 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2014-07-23 17:25:38,882 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2014-07-23 17:25:38,994 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2014-07-23 17:25:39,631 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-07-23 17:56:48,650 | WARN  | Transport Connection to: tcp://127.0.0.1:55151 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:55151@3333
+2014-07-23 17:56:55,476 | WARN  | Transport Connection to: tcp://127.0.0.1:55150 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:55150@3333
